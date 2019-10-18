@@ -28,7 +28,7 @@ def array_literal_matrix
   # alphabetically by the first character.
   unsorted = [ENNET_HOUSE, ENFIELD_TENNIS_ACADEMY]
   sorted = unsorted.sort { |a, b| a<=>b}
-  sorted
+  p sorted
 end
 
 def matrix_lookup(matrix, row, column)
